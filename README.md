@@ -29,3 +29,19 @@ user with input to know sqrt and cbrt
       cout << "The square root of " << input << " is: " << sqrt(input) << endl;
       cout << "The cube root of " << input << " is: " << cbrt(input) << endl;
     }
+
+Function
+
+    #include <iostream>
+    #include <math.h>
+    using namespace std;
+    void Welcome();
+    int main() 
+    {
+        Welcome();
+        cout << "End of program" << endl;
+        return 0;
+    }
+    void Welcome() {
+        cout << "Welcome to my program!" << endl;
+    }
