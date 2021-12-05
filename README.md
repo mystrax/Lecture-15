@@ -32,8 +32,10 @@ user with input to know sqrt and cbrt
 
 Function
 
-    #include <iostream>
+    include <iostream>
     using namespace std;
+    void Welcome();
+    void End();
     int main() 
     {
         Welcome();
