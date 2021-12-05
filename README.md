@@ -33,15 +33,16 @@ user with input to know sqrt and cbrt
 Function
 
     #include <iostream>
-    #include <math.h>
     using namespace std;
-    void Welcome();
     int main() 
     {
         Welcome();
-        cout << "End of program" << endl;
+        End();
         return 0;
     }
     void Welcome() {
         cout << "Welcome to my program!" << endl;
+    }
+    void End() {
+        cout << "End of programs" << endl;
     }
