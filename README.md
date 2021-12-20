@@ -1,4 +1,4 @@
-# Lecture-Math
+# Lecture-15
 
 cbrt and sqrt
 
